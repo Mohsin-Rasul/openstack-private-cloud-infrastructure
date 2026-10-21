@@ -60,3 +60,7 @@ Three OpenStack deployments, built in stages: a single-node DevStack tenant with
 - SSH was opened to any source address; it should be limited to an admin network or bastion host.
 - Everything is plain HTTP; TLS termination at the listener (with Barbican) is the next step.
 - The load balancer is created by hand rather than in the Heat template.
+
+## License
+
+[MIT](LICENSE)
